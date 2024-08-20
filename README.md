@@ -1,7 +1,49 @@
-# Vue 3 + Vite
+# Simulador de Préstamos con Vue.js
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Descripción
+**Simulador de Préstamos** es una aplicación desarrollada con Vue.js que permite a los usuarios calcular fácilmente el monto total a pagar y los intereses de un préstamo en función del capital inicial, la tasa de interés y el plazo del préstamo. La interfaz intuitiva facilita la simulación de diferentes escenarios de préstamo para una mejor planificación financiera.
 
-## Recommended IDE Setup
+## Características
+- Cálculo del monto total del préstamo y los intereses.
+- Simulación de préstamos con diferentes tasas de interés y plazos.
+- Interfaz de usuario simple e intuitiva.
+- Resultados visualizados en tiempo real a medida que se ajustan los parámetros.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tecnologías Utilizadas
+- **Frontend:** Vue.js
+- **Estado:** Vuex
+- **Estilos:** Tailwind CSS
+- **Despliegue:** [Especificar la plataforma de despliegue, si corresponde]
+
+## Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/luisnava6667/simuladorPrestamosVue.git
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+
+3. nicia la aplicación:
+   ```bash
+   npm run dev
+   ```
+
+
+## Uso
+- Navega a http://localhost:5371 en tu navegador para acceder a la aplicación.
+- Ingresa los parámetros del préstamo (capital, tasa de interés, plazo) y obtén el cálculo del monto total e intereses.
+
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas colaborar en el desarrollo de esta aplicación, por favor sigue estos pasos:
+
+## Haz un fork del proyecto.
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz un commit (git commit -m 'Añadir nueva funcionalidad').
+Haz un push a la rama (git push origin feature/nueva-funcionalidad).
+Abre un pull request.
+
+## Contacto
+Creador: Luis Navarro
+
+GitHub: luisnava6667
